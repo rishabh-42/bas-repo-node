@@ -1,0 +1,38 @@
+{
+  "name": "chefkart_assignment",
+  "version": "1.0.0",
+  "description": "ck",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=dev node index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh-42/chefkart-assignment.git"
+  },
+  "keywords": [
+    "ck"
+  ],
+  "author": "Rishabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabh-42/chefkart-assignment/issues"
+  },
+  "homepage": "https://github.com/rishabh-42/chefkart-assignment#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http-status": "^1.5.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.6.2",
+    "winston": "^3.3.3"
+  }
+}
